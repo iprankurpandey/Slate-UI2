@@ -47,25 +47,24 @@
 }
 
 .horizontalline {
-    border-left: 6px solid green;
-    height: 500px;
+    border-left: 1px solid rgb(67, 68, 67);
+    height: 100%;
     position: absolute;
     left: 50%;
-    margin-left:-5rem;
+    margin-left: -5rem;
     top: 15%;
 }
 
 
-.invoice{
-height: 20rem;
-width: 20rem;
-background-color: antiquewhite;
-border-radius: 10px;
-margin: 0.5rem;
-display: flex;
-position: relative;
-flex-direction: column;
-bottom: 28rem;
-left: 33rem;
-
+.invoice {
+    height: 20rem;
+    width: 20rem;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin: 0.5rem;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    bottom: 28rem;
+    left: 33rem;
 }
