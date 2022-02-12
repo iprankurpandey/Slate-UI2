@@ -59,7 +59,7 @@
 .invoice {
     height: 20rem;
     width: 20rem;
-    background-color: antiquewhite;
+    background-color: rgb(252, 172, 69);
     border-radius: 10px;
     margin: 0.5rem;
     display: flex;
@@ -67,4 +67,9 @@
     flex-direction: column;
     bottom: 28rem;
     left: 33rem;
+    padding: 1rem;
+}
+.amount{
+    position: relative;
+    left: 5rem;
 }
