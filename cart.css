@@ -70,6 +70,12 @@
     padding: 1rem;
 }
 .amount{
-    position: relative;
-    left: 5rem;
+    
+}
+.price-item,.discount-item,.charges-item,.total-amount,.total-save
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem;
 }
