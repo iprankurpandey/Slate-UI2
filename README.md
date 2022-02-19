@@ -34,6 +34,3 @@ Live Hosted Link - **[Agri Ecommerce App](https://agri-ecom.netlify.app/)**
 
 ![](https://github.com/iprankurpandey/ecommerce-Agri-UI/blob/dev/images/Screenshot%20from%202022-02-20%2003-03-21.png)
 
-![](https://github.com/iprankurpandey/demo-agro/blob/dev/images/1645283880384.png)
-
-![](https://github.com/iprankurpandey/demo-agro/blob/dev/images/1645283962852.png)
