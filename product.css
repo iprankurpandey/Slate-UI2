@@ -65,12 +65,15 @@ html {
 }
 
 .main-item-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    position: relative;
-    padding-bottom: 6rem;
+    margin-bottom: 8rem;
+    margin-top:1rem
 }
 
 .vcard {
     height: fit-content;
+}
+.ratings-in-card {
+    display: flex;
+    /* font-size: 1.2rem; */
+    cursor: pointer;
 }
