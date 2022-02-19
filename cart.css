@@ -38,7 +38,7 @@
     display: flex;
 }
 
-.mtrlshop {
+.navmtrl {
     font-size: 2rem;
 }
 
@@ -65,9 +65,10 @@
     display: flex;
     position: relative;
     flex-direction: column;
-    bottom: 28rem;
-    left: 33rem;
+    bottom: 34rem;
+    left: 36rem;
     padding: 1rem;
+}
 }
 .amount{
     
