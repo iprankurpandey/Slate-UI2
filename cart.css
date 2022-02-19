@@ -1,0 +1,82 @@
+@import 'https://agri-component.netlify.app/css/components.css';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 5rem;
+    background-color: silver;
+    max-width: 100%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.social-media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 2rem;
+    background-color: silver;
+    max-width: 100%;
+    font-size: 1.5rem;
+}
+
+.fa {
+    margin: 0.5rem;
+}
+
+.search-panel {
+    display: flex;
+}
+
+.navmtrl {
+    font-size: 2rem;
+}
+
+.horizontal-card {
+    margin: 0.5rem;
+}
+
+.horizontalline {
+    border-left: 1px solid rgb(67, 68, 67);
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -5rem;
+    top: 15%;
+}
+
+
+.invoice {
+    height: 20rem;
+    width: 20rem;
+    background-color: rgb(252, 172, 69);
+    border-radius: 10px;
+    margin: 0.5rem;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    bottom: 34rem;
+    left: 36rem;
+    padding: 1rem;
+}
+}
+.amount{
+    
+}
+.price-item,.discount-item,.charges-item,.total-amount,.total-save
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem;
+}
