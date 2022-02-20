@@ -1,4 +1,4 @@
-# Ecommerce-Agri-UI
+# Ecommerce-Agri-UI [![wakatime](https://wakatime.com/badge/user/e3811de2-0a52-4ea2-9086-f609b86ecb77/project/70b13877-2a30-40c0-8300-db5f4d430ba8.svg)](https://wakatime.com/badge/user/e3811de2-0a52-4ea2-9086-f609b86ecb77/project/70b13877-2a30-40c0-8300-db5f4d430ba8)
 
 Agri UI Ecommerce is an all in one place for B2B, B2C platform to sell their products.
 Live Hosted Link - **[Agri Ecommerce App](https://agri-ecom.netlify.app/)**
