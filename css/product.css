@@ -18,7 +18,7 @@ html {
     align-items: center;
     flex-direction: column;
     height: 5rem;
-    background-color: silver;
+    background-color: var(--silver-color);
     max-width: 100%;
     padding: 1rem;
     position: fixed;
@@ -33,7 +33,7 @@ html {
     align-items: center;
     flex-direction: row;
     height: 2rem;
-    background-color: silver;
+    background-color: var(--silver-color);
     max-width: 100%;
     font-size: 1.5rem;
 }
@@ -59,21 +59,21 @@ html {
 .side-item-container {
     width: max-content;
     grid-column: 1/2;
-    background-color: chocolate;
+    background-color: var(--badge-away-color);
     width: 12rem;
     padding: 0.5rem;
 }
 
 .main-item-container {
     margin-bottom: 8rem;
-    margin-top:1rem
+    margin-top: 1rem
 }
 
 .vcard {
     height: fit-content;
 }
+
 .ratings-in-card {
     display: flex;
-    /* font-size: 1.2rem; */
     cursor: pointer;
 }

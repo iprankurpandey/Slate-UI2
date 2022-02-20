@@ -6,11 +6,6 @@
     padding: 0;
 }
 
-body,
-html {
-    height: 100%;
-}
-
 .signup-form {
     height: 22rem;
     width: 25rem;
@@ -19,11 +14,9 @@ html {
     align-items: center;
     justify-content: center;
     margin: auto;
-    /* padding: auto; */
-    background-color: silver;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.5);
+    background-color:var(--silver-color);
+    box-shadow: 0px 0px 10px var(--dark-black-color);
     text-align: center;
-    /* display: block; */
 }
 
 .footer-items {
@@ -32,7 +25,7 @@ html {
     align-items: center;
     flex-direction: column;
     height: auto;
-    background-color: silver;
+    background-color: var(--silver-color);
     max-width: 100%;
     padding: 1rem;
     position: fixed;
@@ -47,7 +40,7 @@ html {
     align-items: center;
     flex-direction: row;
     height: 2rem;
-    background-color: silver;
+    background-color: var(--silver-color);
     max-width: 100%;
     font-size: 1.5rem;
 }
@@ -64,7 +57,7 @@ html {
 .signup-text-head {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #000;
+    color: var(--dark-black-color);
     margin: 1rem;
 }
 

@@ -11,7 +11,7 @@
     align-items: center;
     flex-direction: column;
     height: 5rem;
-    background-color: silver;
+    background-color: var(--silver-color);
     max-width: 100%;
     left: 0;
     bottom: 0;
@@ -25,7 +25,7 @@
     align-items: center;
     flex-direction: row;
     height: 2rem;
-    background-color: silver;
+    background-color: var(--silver-color);
     max-width: 100%;
     font-size: 1.5rem;
 }
@@ -47,7 +47,7 @@
 }
 
 .horizontalline {
-    border-left: 1px solid rgb(67, 68, 67);
+    border-left: 1px solid var(--universal-border-color);
     height: 100%;
     position: absolute;
     left: 50%;
@@ -55,11 +55,10 @@
     top: 15%;
 }
 
-
 .invoice {
     height: 20rem;
     width: 20rem;
-    background-color: rgb(252, 172, 69);
+    background-color: var(--badge-away-color);
     border-radius: 10px;
     margin: 0.5rem;
     display: flex;
@@ -69,10 +68,7 @@
     left: 36rem;
     padding: 1rem;
 }
-}
-.amount{
-    
-}
+
 .price-item,.discount-item,.charges-item,.total-amount,.total-save
 {
     display: flex;
