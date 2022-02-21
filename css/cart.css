@@ -56,7 +56,7 @@
 }
 
 .invoice {
-    height: 20rem;
+    height: 22rem;
     width: 20rem;
     background-color: var(--badge-away-color);
     border-radius: 10px;
@@ -67,6 +67,7 @@
     bottom: 30rem;
     left: 36rem;
     padding: 1rem;
+    justify-content: center;
 }
 
 .price-item,.discount-item,.charges-item,.total-amount,.total-save
