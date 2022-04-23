@@ -1,104 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/signup.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/signup.css" />
     <title>SignUp - Agri Ecom</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <nav class="navigation-menu">
-        
-        <div class="left-side-panel" title="menu-item">
-            <div class="menu"> <span class="material-icons navmtrl">
-                    menu
-                </span></div>
-                <img src="https://i.ibb.co/BwmMLhj/logo.png" alt="logo" class="logo-icon-head">
-            <span class="home">
-                <a href="/index.html">
-                <span class="material-icons navmtrl">
-                    home
-                </span></a>
-            </span>
-
+      <div class="left-side-panel" title="menu-item">
+        <div class="menu">
+          <span class="material-icons navmtrl"> menu </span>
         </div>
-        <div class="search-panel" title="search items">
+        <img
+          src="https://i.ibb.co/BwmMLhj/logo.png"
+          alt="logo"
+          class="logo-icon-head"
+        />
+        <span class="home">
+          <a href="/index.html">
+            <span class="material-icons navmtrl"> home </span></a
+          >
+        </span>
+      </div>
+      <div class="search-panel" title="search items">
+        <input
+          type="search"
+          name="search"
+          id="search"
+          placeholder="search items"
+          class="input-in-input"
+        />
+        <a href="/pages/login.html">
+          <button class="btn btn-primary-outline">Login</button></a
+        >
+      </div>
 
-            <input type="search" name="search" id="search" placeholder="search items" class="input-in-input">
-            <a href="/pages/login.html">
-            <button class="btn btn-primary-outline">Login</button></a>
-
+      <div class="right-side-panel">
+        <div class="shopping-cart" title="shopping cart">
+          <a href="/pages/cart.html">
+            <span class="material-icons navmtrl"> shopping_cart </span></a
+          >
         </div>
-
-        <div class="right-side-panel">
-
-            <div class="shopping-cart" title="shopping cart"> 
-                <a href="/pages/cart.html">
-                <span class="material-icons navmtrl">
-                    shopping_cart
-                </span></a>
-            </div>
-            <div class="favorites-item" title="favorite items">
-                <a href="/pages/product.html">
-                <span class="material-icons navmtrl">
-                    favorite_border
-                </span>
-            </a></div>
-            <div class="user-account" title="your account details"><span class="material-icons navmtrl">
-                    account_circle
-                </span>
-            </div>
+        <div class="favorites-item" title="favorite items">
+          <a href="/pages/wishlist.html">
+            <span class="material-icons navmtrl"> favorite_border </span>
+          </a>
         </div>
+        <div class="user-account" title="your account details">
+          <a href="/pages/product.html">
+            <span class="material-icons navmtrl"> shopping_basket </span></a
+          >
+        </div>
+      </div>
     </nav>
 
-<br>
+    <br />
 
     <div class="signup-form">
+      <div class="signup-text-head">Signup Page</div>
+      <input
+        class="input-in-input"
+        type="text"
+        id="name"
+        name="name"
+        value=""
+        placeholder="Name"
+        required
+      />
 
-        <div class="signup-text-head">
-            Signup Page
-        </div>
-        <input class="input-in-input" type="text" id="name" name="name" value="" placeholder="Name" required>
+      <input
+        class="input-in-input"
+        type="email"
+        id="email"
+        name="email"
+        value=""
+        placeholder="Email"
+        required
+      />
 
-        <input class="input-in-input" type="email" id="email" name="email" value="" placeholder="Email" required>
+      <input
+        class="input-in-input"
+        type="tel"
+        id="input-telnumber"
+        name="input telnumber"
+        inputmode="numeric"
+        pattern="[0-9]*"
+        autocomplete="one-time-code"
+        placeholder="Phone Number"
+        required
+      />
 
-        <input class="input-in-input" type="tel" id="input-telnumber" name="input telnumber" inputmode="numeric" pattern="[0-9]*"
-            autocomplete="one-time-code" placeholder="Phone Number" required>
+      <input
+        class="input-in-input"
+        type="password"
+        id="input-password"
+        name="input password"
+        placeholder="Password"
+        required
+        minlength="6"
+      />
 
-        <input class="input-in-input" type="password" id="input-password" name="input password" placeholder="Password" required minlength="6">
+      <input
+        class="input-in-input"
+        type="password"
+        id="input-password"
+        name="input password"
+        placeholder="Retype Password"
+        required
+        minlength="6"
+      />
 
-        <input class="input-in-input" type="password" id="input-password" name="input password" placeholder="Retype Password" required
-            minlength="6">
-
-        <input type="submit" id="input-submit" name="input submit" required>
-        <label for="input-submit"> </label>
-        <div class="login-info">
-
-            Already registered? <span class="login-link"><a href="/pages/login.html" class="btn-link">Login</a>
-
-            </span>
-        </div>
+      <input type="submit" id="input-submit" name="input submit" required />
+      <label for="input-submit"> </label>
+      <div class="login-info">
+        Already registered?
+        <span class="login-link"
+          ><a href="/pages/login.html" class="btn-link">Login</a>
+        </span>
+      </div>
     </div>
 
     <footer class="footer-items">
-        <div class="h4"> Made with <code>
-                < />
-            </code>by Prankur Pandey </div>
+      <div class="h4">Made with <code> < /> </code>by Prankur Pandey</div>
 
-        <div class="social-media-links">
-            <div class="github"><i class="fa fa-github"></i></div>
-            <div class="twitter"><i class="fa fa-twitter"></i></div>
-            <div class="Linkedin"><i class="fa fa-linkedin"></i></div>
-        </div>
-        <div class="H5">© 2021 Agri UI </div>
+      <div class="social-media-links">
+        <div class="github"><i class="fa fa-github"></i></div>
+        <div class="twitter"><i class="fa fa-twitter"></i></div>
+        <div class="Linkedin"><i class="fa fa-linkedin"></i></div>
+      </div>
+      <div class="H5">© 2021 Agri UI</div>
     </footer>
-
-
-
-</body>
-
+  </body>
 </html>
