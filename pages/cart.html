@@ -1,192 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HomePage</title>
-    <link rel="stylesheet" href="/css/cart.css">
+    <link rel="stylesheet" href="/css/cart.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <div class="navigation-menu">
-
-        <div class="left-side-panel" title="menu-item">
-            <div class="menu"> <span class="material-icons navmtrl">
-                    menu
-                </span></div>
-            <img src="https://i.ibb.co/BwmMLhj/logo.png" alt="logo" class="logo-icon-head">
-            <span class="home">
-
-                <a href="/index.html">
-                <span class="material-icons navmtrl">
-                    home
-                </span> </a>
-            </span>
-
-
+      <div class="left-side-panel" title="menu-item">
+        <div class="menu">
+          <span class="material-icons navmtrl"> menu </span>
         </div>
+        <img
+          src="https://i.ibb.co/BwmMLhj/logo.png"
+          alt="logo"
+          class="logo-icon-head"
+        />
+        <span class="home">
+          <a href="/index.html">
+            <span class="material-icons navmtrl"> home </span>
+          </a>
+        </span>
+      </div>
 
-        <div class="search-panel" title="search items">
+      <div class="search-panel" title="search items">
+        <input
+          type="search"
+          name="search"
+          id="search"
+          placeholder="search items"
+          class="input-in-input"
+        />
 
-            <input type="search" name="search" id="search" placeholder="search items" class="input-in-input">
-           
-           <a href="/index.html">
-            <button class="btn btn-primary-outline">Logout</button></a>
+        <a href="/index.html">
+          <button class="btn btn-primary-outline">Logout</button></a
+        >
+      </div>
 
+      <div class="right-side-panel">
+        <div class="shopping-cart" title="shopping cart ">
+          <a href="/pages/cart.html">
+            <span class="material-icons navmtrl"> shopping_cart </span></a
+          >
         </div>
-
-        <div class="right-side-panel">
-
-            <div class="shopping-cart" title="shopping cart ">
-              <a href="/pages/cart.html">
-                <span class="material-icons navmtrl">
-                    shopping_cart
-                </span></a>
-            </div>
-            <span class="number-badge lg-number-badge">9+</span>
-            <div class="favorites-item" title="favorite items">
-                <a href="/pages/product.html">
-                <span class="material-icons navmtrl">
-                    favorite_border
-                </span></a>
-            </div>
-            <span class="number-badge lg-number-badge">5</span>
-            <div class="user-account" title="your account details"><span class="material-icons navmtrl">
-                    account_circle
-                </span>
-            </div>
+        <span class="number-badge lg-number-badge">9+</span>
+        <div class="favorites-item" title="favorite items">
+          <a href="/pages/wishlist.html">
+            <span class="material-icons navmtrl"> favorite_border </span></a
+          >
         </div>
+        <span class="number-badge lg-number-badge">5</span>
+        <div class="user-account" title="your account details">
+          <a href="/pages/product.html">
+            <span class="material-icons navmtrl"> shopping_basket </span></a
+          >
+        </div>
+      </div>
     </div>
 
-
-
     <div class="main-container">
+      <div class="card horizontal-card">
+        <div class="card-data-items">
+          <div class="card-image">
+            <img
+              class="cimage"
+              src="https://i.ibb.co/rf2Sn3Q/raphael-rychetsky-li9-Jf-UHQf-OY-unsplash.jpg"
+            />
+            <div class="hcard-text">
+              <h3>Wheat</h3>
+              <h5>Malwa Bundeli Quality</h5>
+              <h6>By : Prankur</h6>
 
-        <div class="card horizontal-card">
-            <div class="card-image">
-                <img class="cimage" src="https://i.ibb.co/rf2Sn3Q/raphael-rychetsky-li9-Jf-UHQf-OY-unsplash.jpg">
-                <div class="hcard-text">
-                    <h3> Wheat</h3>
-                    <h5>Malwa Bundeli Quality</h5>
-                    <h6>By : Prankur</h6>
+              <p>
+                the wheat is pure and grown organically at farm , the quality is
+                high and cost is cheap. rich with nutrients and high in protein.
+              </p>
+              <p class="amount">$5000</p>
+              <div class="hcard-btn">
+                <button class="hcard button-cart">
+                  <span class="material-icons"> remove_shopping_cart </span>
+                </button>
+                <button class="hcard button-like">
+                  <span class="material-icons"> favorite_border </span>
+                </button>
 
-                    <p> the wheat is pure and grown organically at farm , the quality is high and cost is cheap.
-                        rich with nutrients and high in protein.
-                    </p>
-                    <p class="amount">$5000</p>
-                    <div class="hcard-btn">
-                        <button class="hcard button-cart">
-                            <span class="material-icons">
-                                remove_shopping_cart
-                            </span>
-                        </button>
-                        <button class="hcard button-like">
-                            <span class="material-icons">
-                                favorite_border
-                            </span>
-                        </button>
-
-                        <button class="hcard increase">
-                            <span class="material-icons">
-                                add
-                            </span></button>
-                        <input class="input-cart" type="text" value="1">
-                        <button class="hcard decrease"><span class="material-icons">
-                                remove
-                            </span>
-                        </button>
-                    </div>
-
-                </div>
+                <button class="hcard increase">
+                  <span class="material-icons"> add </span>
+                </button>
+                <input class="input-cart" type="text" value="1" />
+                <button class="hcard decrease">
+                  <span class="material-icons"> remove </span>
+                </button>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
-        <div class="card horizontal-card">
-            <div class="card-image">
-                <img class="cimage" src="https://i.ibb.co/rf2Sn3Q/raphael-rychetsky-li9-Jf-UHQf-OY-unsplash.jpg">
-                <div class="hcard-text">
-                    <h3> Wheat</h3>
-                    <h5>Malwa Bundeli Quality</h5>
-                    <h6>By : Prankur</h6>
+      <div class="card horizontal-card">
+        <div class="card-image">
+          <img
+            class="cimage"
+            src="https://i.ibb.co/rf2Sn3Q/raphael-rychetsky-li9-Jf-UHQf-OY-unsplash.jpg"
+          />
+          <div class="hcard-text">
+            <h3>Wheat</h3>
+            <h5>Malwa Bundeli Quality</h5>
+            <h6>By : Prankur</h6>
 
-                    <p> the wheat is pure and grown organically at farm , the quality is high and cost is cheap.
-                        rich with nutrients and high in protein.
-                    </p>
-                    <p class="amount">$5000</p>
-                    <div class="hcard-btn">
-                        <button class="hcard button-cart">
-                            <span class="material-icons">
-                                remove_shopping_cart
-                            </span>
-                        </button>
-                        <button class="hcard button-like">
-                            <span class="material-icons">
-                                favorite_border
-                            </span>
-                        </button>
+            <p>
+              the wheat is pure and grown organically at farm , the quality is
+              high and cost is cheap. rich with nutrients and high in protein.
+            </p>
+            <p class="amount">$5000</p>
+            <div class="hcard-btn">
+              <button class="hcard button-cart">
+                <span class="material-icons"> remove_shopping_cart </span>
+              </button>
+              <button class="hcard button-like">
+                <span class="material-icons"> favorite_border </span>
+              </button>
 
-                        <button class="hcard increase">
-                            <span class="material-icons">
-                                add
-                            </span></button>
-                        <input class="input-cart" type="text">
-                        <button class="hcard decrease"><span class="material-icons">
-                                remove
-                            </span>
-                        </button>
-                    </div>
-
-                </div>
+              <button class="hcard increase">
+                <span class="material-icons"> add </span>
+              </button>
+              <input class="input-cart" type="text" />
+              <button class="hcard decrease">
+                <span class="material-icons"> remove </span>
+              </button>
             </div>
+          </div>
         </div>
-        <div class="invoice">
-            <div class="invoice-details">
-
-
-                <h3>Price Details</h3>
-                <hr>
-                <div class="price-item">
-                Price (2) on items : <span class="amount">$5000</span> </div> <br>
-                <div class="discount-item">
-
-              
-                Discount on Price: <span class="amount">$1500</span>  </div> <br>
-                <div class="charges-item">
-                Delivery Charges : <span class="amount">$500</span> </div><br>
-                <hr>
-                <div class="total-amount">
-                TOTAL AMOUNT : <span class="amount">$4000</span> </div><br>
-                <hr>
-                <div class="total-save">
-                You save (total) : <span class="amount">$1000</span></div>
-            </div>
-            <button class="btn btn-primary-icon">Shop Now<span class="material-icons">
-                shopping_cart
-            </span>
+      </div>
+      <div class="invoice">
+        <div class="invoice-details">
+          <h3>Price Details</h3>
+          <hr />
+          <div class="price-item">
+            Price (2) on items : <span class="amount">$5000</span>
+          </div>
+          <br />
+          <div class="discount-item">
+            Discount on Price: <span class="amount">$1500</span>
+          </div>
+          <br />
+          <div class="charges-item">
+            Delivery Charges : <span class="amount">$500</span>
+          </div>
+          <br />
+          <hr />
+          <div class="total-amount">
+            TOTAL AMOUNT : <span class="amount">$4000</span>
+          </div>
+          <br />
+          <hr />
+          <div class="total-save">
+            You save (total) : <span class="amount">$1000</span>
+          </div>
+        </div>
+        <button class="btn btn-primary-icon">
+          Shop Now<span class="material-icons"> shopping_cart </span>
         </button>
-            
-            <br>
 
-           
-        </div>
+        <br />
+      </div>
     </div>
 
     <!-- footer -->
     <footer class="footer-items">
-        <div class="h4"> Made with <code>
-                < />
-            </code>by Prankur Pandey </div>
+      <div class="h4">Made with <code> < /> </code>by Prankur Pandey</div>
 
-        <div class="social-media-links">
-            <div class="github"><i class="fa fa-github"></i></div>
-            <div class="twitter"><i class="fa fa-twitter"></i></div>
-            <div class="Linkedin"><i class="fa fa-linkedin"></i></div>
-        </div>
-        <div class="H5">© 2021 Agri UI </div>
+      <div class="social-media-links">
+        <div class="github"><i class="fa fa-github"></i></div>
+        <div class="twitter"><i class="fa fa-twitter"></i></div>
+        <div class="Linkedin"><i class="fa fa-linkedin"></i></div>
+      </div>
+      <div class="H5">© 2021 Agri UI</div>
     </footer>
-</body>
-
+  </body>
 </html>
